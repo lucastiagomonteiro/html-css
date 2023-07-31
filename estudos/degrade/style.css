@@ -1,0 +1,26 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #1322F2 , #111FD9 );
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    width: 800px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top :50px;
+    box-shadow: 5px 5px 5px 10px #160173;
+}
+p {
+    text-align: justify;
+}
+
+h1 {
+    color: aqua;
+    text-align: center;
+    text-shadow: 1px 1px 5px blue;
+}

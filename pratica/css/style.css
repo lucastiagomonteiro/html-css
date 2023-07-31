@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,html {
+    overflow-x: hidden;
+ 
+}
+
+.menu {
+    position: relative;
+    background-color: #042A37;
+    display: flex;
+    padding: 10px;
+    left: 200px;
+}
+
+
+.menu button {
+    position: relative;
+    border-radius: 50px;
+    padding: 15px;
+    width: 100px;
+    background-color: white;
+    border: none;
+    left: 930px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu p {
+    position: relative;
+    color: rgb(185, 185, 185);
+    left: 920px;
+    top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.capa {
+    position: relative;
+    background-image: linear-gradient(to top, #003c4b 60px, #0199d5);
+    padding: 20px;
+    left: 200px;
+}
+.capa img {
+
+   box-shadow: 12px 12px 100px 10PX #103b48;
+}
+
+main p {
+    position: relative;
+    color: white;
+    top: -150px;
+    left: 445px;
+    padding: 5px;
+    font-family: sans-serif;
+}
+main h2 {
+    position: relative;
+    top: -150px;
+    left: 450px;
+    color: white;
+    font-family: verdana;
+}
+
+.images {
+    position: relative;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.97)40%, #003a47);
+    padding: 20px;
+    left: 200px;
+    margin-top: -115px;
+}
+
+.images hr {
+    color:rgb(0, 0, 0);
+
+}
+.images img {
+    width: 50px;
+}
+
+.images p {
+    top: -85px;
+    left: 4px;
+    color: rgba(255, 252, 252, 0.632);
+  
+}
+
+.images ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.images li {
+    position: relative;
+    font-family: sans-serif;
+    color: rgba(255, 252, 252, 0.816);
+    left: -19em;
+    top: -20px;
+    font-weight: lighter;
+    font-size: 15px;
+    
+}
+
+.menu2 {
+   position: absolute;
+   top: -2px;
+   background-color: #0a171f;
+   color: rgb(185, 185, 185);
+   padding: 25px;
+   padding-bottom: 650px;
+}
+
+
+.menu2 li {
+    padding-top: 20px;
+    list-style: none;
+    font-family: verdana;
+}
+.menu2 li:hover {
+    color:white;
+}
+.menu2 img{
+    position: relative;
+    width: 150px;
+    top: -8px;
+}
+
+.Album {
+    margin-left: 908px;
+    margin-top: 5px;
+    display: flex;
+}
+
+.Album li {
+    color: rgba(255, 252, 252, 0.632);
+    list-style: none;
+    padding: 5px;
+}
+
+.lofi {
+    position: relative;
+    list-style: none;
+    display: flex;
+    margin-left: 795px;
+    top: -240px;
+}
+
+.lofi li {
+    padding: 5px;
+   
+}
+
+.lofi ul {
+    display: block;
+}
+
+.lofi ol {
+    display: flex;
+    list-style: none;
+}
+
+.lofi h3 {
+    position: relative;
+    color: rgba(255, 252, 252, 0.816);
+    top: -47px;
+    left: -169px;
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: lighter;
+
+}
+

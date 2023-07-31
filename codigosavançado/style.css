@@ -1,0 +1,27 @@
+body {
+    height: 2000px;
+    padding: 70px;
+}
+
+header {
+    background-color: rgb(43, 182, 64);
+    padding: 30px;
+    width: 98%;
+    text-align: right;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+header li {
+    display: inline-flex;
+}
+
+header li:hover {
+    text-decoration: underline;
+}
+header a {
+    color: white;
+    text-decoration: none;
+}
+

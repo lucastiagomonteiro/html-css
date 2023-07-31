@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <h1>  preencha o formulario </h1>
+    <form action="cadastro.js" method="post" autocomplete="on">
+        <fieldset>]
+            <legend> dados pessoais</legend>
+            <p><label for="iusu"  > usuario: </label>
+                <input type="text" name="usu" id="iusu" required minlength="5" maxlength="8" size="20" placeholder="nome de usuario">
+            </p>
+            <p>
+                <label for="isen">senha</label>
+                <input type="password" name="sen" id="isen">
+            </p>
+            <p>
+                <label for="imedia"> media:</label>
+                <input type="number" name="media" id="imedia" min="0" max="10" placeholder="o a 10" step="0.5"
+                 value="5" required>
+            </p>
+            <p>
+                <label for="imes">periodo letivo</label>
+                <input type="month" name="mes" id="imes" value="2020-7">
+            </p>
+            <p>
+                <label for="idia"> dia da prova</label>
+                <input type="date" name="dia" id="idia" value="2020-7-14">
+            </p>
+            <p>
+                <label for=""> hora</label>
+                <input type="time" name="hora" id="ihora ">
+            </p>
+             <p>
+                <label for="itel"> telefone</label>
+                <input type="tel" name="tel" id="itel" placeholder="(xx)xxxx-xxxx" pattern="^\(\d{2})\d{4,5}-\d{4}$" required autocomplete="tel">
+            </p>
+            <p>
+                <label for="iemail">e-mail</label>
+                <input type="email" name="email" id="iemail" autocomplete="email" required>
+            </p>
+            <p>
+                <input type="submit" value="enviar">
+                <input type="reset" value="limpar">
+            </p>
+            
+        </fieldset>
+    </form>
+</body>
+</html>

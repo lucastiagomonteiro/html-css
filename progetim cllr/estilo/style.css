@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    
+    background-color: rgb(191, 191, 191);
+    padding: 10px;
+}
+
+header a {
+    position: relative;
+    padding-left: 10px;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    left: 1150px;
+    top: -10px;
+}
+
+main {
+
+}
+
+.imagens {
+    text-align: center;
+}
+
